@@ -11,6 +11,6 @@ document.getElementById('victory').addEventListener('click', function() {
 
 document.getElementById('defeat').addEventListener('click', function() {
   defeatCount += 1;
-  localStorage.setItem('defeatCount', defeatCount)
+  localStorage.setItem('defeatCount', defeatCount);
   document.getElementById('message').textContent = `${victoryCount} - ${defeatCount}`;
 });
